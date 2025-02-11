@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaints</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Most recent complaints to NYPD</h1>
+    <h4>Enter the number of complaints you wish to view below, then click the borough you'd like to investigate.</h4>
+    <div class="row">
+        <input type="text" name="number" placeholder="Number of Complaints">
+        <button id="brooklyn">BROOKLYN</button>
+        <button id="manhattan">MANHATTAN</button>
+        <button id="queens">QUEENS</button>
+        <button id="bronx">BRONX</button>
+        <button id="staten-island">STATEN ISLAND</button>
+    </div>
+    <section class="results"></section>
+</body>
+</html>

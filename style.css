@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h4, .row {
+    text-align: center;
+}
+.row{
+    margin-bottom: 15px;
+}
+h1, button {
+    text-transform: uppercase;
+}
+button {
+    border-radius: 6px;
+    background-color: navy;
+    color: white;
+    padding: 4px;
+    height: 2em
+}
+.results {
+    /* background-color: wheat; */
+    padding: 5px;
+    
+}
+.results div {
+    background-color: white;
+    border: 10px solid wheat;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.unclicked {
+    display: none;
+}
+#clicked {
+    display: block;
+}
+/* #police-response {
+    align-self: center;
+} */
